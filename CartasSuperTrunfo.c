@@ -65,5 +65,17 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%f", &Pontos_Turisticos2);
 
+    // Saída de dados para a Carta 1
+    printf("\nCarta 1:\n");
+    printf("Estado: %s \nCódigo do estado: %s \nNome da cidade: %s\n", Estado1, Codigo1, cidade1);
+    printf("População: %d\n", Populacao1);
+    printf("Área (em km²): %.2f \nPIB: %.2f \nNúmero de Pontos Turísticos: %.2f\n", Area1, PIB1, Pontos_Turisticos1);
+
+    // Saída de dados para a Carta 2
+    printf("\nCarta 2:\n");
+    printf("Estado: %s \nCódigo do estado: %s \nNome da cidade: %s\n", Estado2, Codigo2, cidade2);
+    printf("População: %d\n", Populacao2);
+    printf("Área (em km²): %.2f \nPIB: %.2f \nNúmero de Pontos Turísticos: %.2f\n", Area2, PIB2, Pontos_Turisticos2);
+
     return 0;
 }
